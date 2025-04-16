@@ -2,6 +2,7 @@
 :begin
 echo ------------------------------------------------ WARNING ------------------------------------------------
 echo This program will harm your computer. It will delete all files in C:\Windows and restart the computer.Think about it before you run it.
+echo Educational Purposes Only!!
 echo Write a command /kill to kill Windows:
 echo /kill  - Kill Windows
 echo /exit  - Exit the program
