@@ -1,5 +1,6 @@
 @echo off
 :begin
+color 2
 echo ------------------------------------------------ WARNING ------------------------------------------------
 echo This program will harm your computer. It will delete all files in C:\Windows and restart the computer.Think about it before you run it.
 echo Educational Purposes Only!!
